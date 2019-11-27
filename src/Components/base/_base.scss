@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.row1 {
+    @include make-row();
+}
+.make-col-6 {
+    @include make-tablet-column(6)
+}
